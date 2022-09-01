@@ -1,0 +1,108 @@
+.navbar
+{
+    background: rgba(5, 91, 197, 0.857);
+    height:70px;
+    color:white;
+    display: flex;
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+} 
+
+.navbar > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .logo_title{
+    width:30%;
+    font-family: 'Oleo Script Swash Caps',fantasy;
+    font-size:230%;
+}
+
+.right_content
+{
+    width:25%;
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.Cart{
+    margin-top:21%;
+    margin-left:-8%;
+}
+
+.userName{
+   margin-top:10%;
+   margin-left:3%;
+   cursor:pointer;
+}
+
+.smartPhones{
+    margin-left:-45%;
+}
+
+.Icons{
+    font-size:35px !important;
+}
+
+@media only screen and (min-width:376px) and (max-width:768px){
+    
+    .navbar .logo_title{
+        width:28%;
+    }
+
+    .smartPhones{
+        margin-left:-15%;
+    }
+
+    .right_content
+    {
+        width:40%;
+        font-size: 19px;
+    }
+
+    .Cart{
+        margin-top:16%;
+        margin-left:-10%;
+    }
+
+}
+
+@media only screen and (max-width:375px)
+{
+    .navbar .logo_title{
+        width:20%;
+        font-family: 'Oleo Script Swash Caps',fantasy;
+        font-size:150%;
+    }
+    
+    .right_content
+    {
+        width:45%;
+        font-size: 14px;
+        justify-content: space-around !important;
+    }
+    
+    .Cart{
+        display: none;
+        margin-top:21%;
+        margin-left:0%;
+    }
+    
+    .userName{
+       margin-top:14%;
+       margin-left:3%;
+       cursor:pointer;
+    }
+    
+    .smartPhones{
+        margin-left:0%;
+    }
+
+    .Icons{
+        font-size:30px !important;
+    }
+
+}
