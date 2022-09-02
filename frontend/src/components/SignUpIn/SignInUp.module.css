@@ -1,0 +1,122 @@
+
+.Form{
+    max-width: 40%;
+    margin:auto;
+    border-radius: 15px;
+    margin-top: 2%;
+    padding:1% 0;
+    background-color: rgb(82, 163, 255);
+    box-shadow: rgb(0, 0, 255) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.Form > input{
+    width:90%;
+    height: 6vh;
+    margin:2% 0;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 5%;
+}
+
+.Form >input:last-child{
+    display: block;
+    margin: 3% auto;
+    background: rgb(0, 6, 188);
+    width:25%;
+    font-size: 20px;
+    font-weight: 900;
+    color:white;
+    text-align: center;
+    padding-left: 0;
+}
+
+.Form > input::placeholder{
+    font-size: 18px;
+}
+
+.account{
+    margin:auto;
+    margin-top: 2%;
+    font-size: 22px;
+    text-align: right;
+    width:40%;
+}
+
+.button{
+    margin:0 3% 0 3%;
+    font-weight:900;
+}
+
+@media only screen and (min-width:376px) and (max-width:768px) {
+
+
+.Form{
+    max-width: 90%;
+}
+
+.Form > input{
+    font-size: 22px;
+}
+
+.Form >input:last-child{
+    font-size: 22px;
+}
+
+.Form > input::placeholder{
+    font-size: 22px;
+}
+
+.account{
+    margin:auto;
+    margin-top: 2%;
+    font-size: 22px;
+    text-align: right;
+    width:90%;
+}
+
+.button{
+    margin:0 6% 0 3% !important;
+    font-weight:900;
+    width: 110px;
+    height:5vh;
+    font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width:375px) {
+
+
+    .Form{
+        max-width: 98%;
+    }
+    
+    .Form > input{
+        font-size: 16px;
+    }
+    
+    .Form >input:last-child{
+        font-size: 18px;
+        width:120px;
+        border:none;
+    }
+    
+    .Form > input::placeholder{
+        font-size: 16px;
+    }
+    
+    .account{
+        margin:auto;
+        margin-top: 2%;
+        font-size: 18px;
+        text-align: center;
+        width:99%;
+    }
+    
+    .button{
+        margin:2% 0% 0 5% !important;
+        font-weight:900;
+        width: 110px;
+        height:5vh;
+        font-size: 18px !important;
+        }
+    }
