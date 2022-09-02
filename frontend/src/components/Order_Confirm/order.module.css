@@ -1,0 +1,95 @@
+
+.success{
+    height:100px;
+    background:rgb(0, 0, 71);
+    color:white;
+    margin-top: 2%;
+    font-size: 30px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+.Order_Div{
+    display:flex;
+    justify-content:center;
+}
+
+.User{
+   width:45%;
+   margin-top:3%;
+   margin-left:4%;
+}
+
+.Order{
+width:45%;
+margin:3% 4% 0 2%;
+}
+
+@media only screen and (min-width:376px) and (max-width:768px){
+
+    
+    .Order_Div{
+        display:block;
+        justify-content:none;
+    }
+    
+    .User{
+       width:96%;
+       margin-top:3%;
+       margin-left:2%;
+    }
+    
+    .Order{
+    width:96%;
+    margin:3% 0% 0 2%;
+    }
+
+    .Order_Div b{
+        padding-left: 10%;
+        font-size: 20px;
+    }
+
+    .Order_Div kbd
+    {
+        font-size:18px;
+    }
+
+    .TableBody *{
+        font-size: 20px !important;
+        height:50px !important;
+    }
+}
+
+@media only screen and (max-width:768px){
+
+    .success{
+        font-size: 22px;
+    }
+
+    .Order_Div{
+        display:block;
+        justify-content:none;
+    }
+    
+    .User{
+       width:98%;
+       margin-top:3%;
+       margin-left:1%;
+    }
+    
+    .Order{
+    width:96%;
+    margin:3% 0% 0 1%;
+    }
+
+    .Order_Div b{
+        padding-left: 0%;
+        font-size: 12px;
+    }
+
+    .Order_Div kbd
+    {
+        font-size:10px;
+    }
+}
