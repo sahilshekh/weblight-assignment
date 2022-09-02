@@ -1,0 +1,113 @@
+.MainBox{
+    display:flex;
+    border:5px solid rgb(9, 255, 0);
+     justify-content:space-between } 
+
+.formBox{
+    width:40%;
+    border:5px solid red;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding:3%;
+    padding-left:5%;
+    text-align: left;   
+}
+
+.formBox > .forms{
+    border-radius: 20px;
+    background-color: rgb(225, 232, 126);
+    box-shadow: rgba(0, 0, 247, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width:90%;
+}
+
+.formBox > .forms > *{
+    margin:4% auto;
+    border-radius: 20px;
+    background-color: rgb(255, 249, 249);
+}
+
+.pay{
+    width:20% !important;
+    height:40px !important;
+    font-weight:900 !important;
+    background:#f17c07 !important;
+    margin-top:8% !important;
+    margin-left: 70% !important;
+}
+
+.Table{
+    width:99% !important;
+}
+
+@media only screen and (min-width:376px) and (max-width:768px){
+    
+    .MainBox{
+        display:block;
+        justify-content:unset;
+    }
+    
+    .formBox{
+        width:90%;
+        padding-left:4%; 
+    }
+    
+    .formBox > .forms{
+        border-radius: 10px;
+        width:90%;
+        text-align: center;
+    }
+    
+    .formBox > .forms > *{
+        width:70%;
+        margin:2% auto;
+        border-radius: 20px;
+        background-color: rgb(255, 249, 249);
+    }
+    
+    .pay{
+        width:20% !important;
+        height:40px !important;
+        font-weight:900 !important;
+        background:#f17c07 !important;
+        margin-top:8% !important;
+        margin-left: 30% !important;
+    }
+}
+
+@media only screen and (max-width:375px){
+    
+    .MainBox{
+        display:block;
+        justify-content:unset;
+    }
+    
+    .formBox{
+        width:98%;
+        padding-left:2%; 
+    }
+    
+    .formBox > .forms{
+        border-radius: 10px;
+        width:96%;
+        text-align: center;
+    }
+    
+    .formBox > .forms > *{
+        width:88%;
+        margin:2% auto;
+        border-radius: 20px;
+        background-color: rgb(255, 249, 249);
+    }
+    
+    .pay{
+        width:50% !important;
+        height:40px !important;
+        font-weight:900 !important;
+        background:#f17c07 !important;
+        margin-top:8% !important;
+        margin-left: 25% !important;
+    }
+
+    .Table{
+        width:99% !important;
+    }
+}
