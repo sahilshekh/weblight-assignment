@@ -29,8 +29,10 @@ const StyledShoppingCart = styled(ShoppingCart)(({ theme }) => (
 export const SiteNavbar = () =>{
 
 
-  let {username} = JSON.parse(localStorage.getItem("user")) || "username"
-  
+   let {username} = JSON.parse(localStorage.getItem("user")) || "username"
+  // let username = "sahil"
+  // console.log(username,"line no 33")
+
   if(username == undefined)
   {
     username = "username"
@@ -81,7 +83,7 @@ export const SiteNavbar = () =>{
 
     return <div className={Style.navbar}>
         <div className={Style.logo_title}>
-          <b> <Link style={{textDecoration:"none",color:"rgb(239, 138, 5)"}} to="/home">Mobi World</Link></b>
+          <b> <Link style={{textDecoration:"none",color:"rgb(239, 138, 5)"}} to="/home">Mobi Galaxy</Link></b>
         </div>
         <div className={Style.smartPhones}>
             <Button

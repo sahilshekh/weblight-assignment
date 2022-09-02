@@ -19,11 +19,11 @@ img{
     border-radius: 5px;
     width:90%;
     color:white;
-    background-color: rgba(5, 91, 197, 0.857);
+    background-color: rgba(5, 91, 197, 0.434);
 }
 
 .subTitle{
-    background-color: rgb(188, 203, 247);
+    background-color: rgba(188, 203, 247, 0.653);
     margin:auto;
     display: flex;
     justify-content: space-between;
