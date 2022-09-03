@@ -1,8 +1,24 @@
 # Mobi-Galaxy
+<table>
+<tr>
+<td>
+ A Simple responsive E-Commerce Web Application of SmartPhones under ₹10000 and ₹20000
+  And adding some important feature in application. You can Check it out.
+</td>
+</tr>
+</table>
 
-## A Simple responsive E-Commerce Web Application of SmartPhones under ₹10000 and ₹20000, built with React and Material UI
 
-<br>
+## Built with Tech Stacks:
+- React.js
+- Redux.js
+- MaterialUI
+- CSS
+- Nodejs
+- Expressjs
+- MongoDB-Atlas
+- Razorpay
+
 
 ## Features
 
@@ -37,6 +53,25 @@
 
 <br>
 
+
+
+## [Getting Started]
+
+### Execution..
+
+Want to run in your local Machine? Great!
+
+To run, follow these steps:
+
+-  Clone the repository
+    
+-  https://github.com/sahilshekh/weblight-assignment
+  
+- Open the code in your VS code.
+- Initialize the server npm run server in the terminal.
+- Then you can start using application.
+<br>
+
 #### Deployment Link
 
 <br>
@@ -47,3 +82,7 @@ https://weblight-assignment.netlify.app/
 ```
 
 <hr>
+<br>
+## Creator
+
+- [@Sahil Shekh]()
