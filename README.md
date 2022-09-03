@@ -41,9 +41,9 @@
 
 <br>
 
-Deployed in Vercel and To know more Copy this Link.
+Deployed in Netlify and To know more Copy this Link.
 ```
-https://mobi-world.vercel.app
+https://weblight-assignment.netlify.app/
 ```
 
 <hr>
